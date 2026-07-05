@@ -78,3 +78,19 @@ transform:scale(1.05);
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:25
+.breaking-news{
+padding:70px 8%;
+text-align:center;
+}
+
+.breaking-news h2{
+font-size:38px;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.news-box{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
