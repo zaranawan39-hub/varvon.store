@@ -1,9 +1,23 @@
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("Welcome to VARVON 🚀");
+document.addEventListener("DOMContentLoaded", () => {
 
-    const button = document.querySelector("button");
+const btn = document.querySelector("button");
 
-    button.addEventListener("click", function () {
-        alert("Welcome to VARVON! More amazing features are coming soon.");
-    });
+if(btn){
+btn.addEventListener("click", () => {
+window.location.href="news.html";
+});
+}
+
+const cards=document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+card.addEventListener("mouseenter",()=>{
+card.style.boxShadow="0 0 25px #38bdf8";
+});
+
+card.addEventListener("mouseleave",()=>{
+card.style.boxShadow="none";
+});
+});
+
 });
