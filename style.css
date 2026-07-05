@@ -132,3 +132,34 @@ transition:0.3s;
 background:#1d4ed8;
 transform:scale(1.05);
 }
+.featured{
+padding:60px 20px;
+text-align:center;
+}
+
+.featured h2{
+font-size:32px;
+margin-bottom:25px;
+color:#00bfff;
+}
+
+.featured .news-box{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.featured .card{
+background:#1e293b;
+color:white;
+padding:20px;
+border-radius:12px;
+width:280px;
+transition:0.3s;
+}
+
+.featured .card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,191,255,0.4);
+}
